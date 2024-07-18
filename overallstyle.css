@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+justify-content: center;
+align-items: center;
+  background-color: gray;
+  width: 100%;
+  height: 60px;
+   }
+
+
+.navbar h2 {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: initial;
+  color:rgb(135, 220, 235);
+  vertical-align: middle;
+  margin-right: auto;
+  font-size: 35px;
+  font-weight: 600;
+}                      
+
+.navbar ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+body{
+  background-color: black;
+}
+.navbar a.button:hover {
+  background-color:skyblue;
+  border-radius: 10%;
+  margin: 10px;
+  transition: all 0.4s ease 0s;
+  }
+  .poster-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .poster-image {
+    max-width: 80%; /* adjust the width to your liking */
+    max-height: 80vh; /* adjust the height to your liking */
+    margin: 0 auto;
+    display: block;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .button-2 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 80%;
+  }
+  
